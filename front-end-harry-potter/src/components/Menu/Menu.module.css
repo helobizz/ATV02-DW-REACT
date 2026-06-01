@@ -1,0 +1,21 @@
+.navbar {
+  background-color: var(--cor-primaria);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+.logo a {
+  color: var(--cor-dourada);
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.links a {
+  color: var(--cor-branca);
+}
+
+.links a:hover {
+  color: var(--cor-dourada);
+}

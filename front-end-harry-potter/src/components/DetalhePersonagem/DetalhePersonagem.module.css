@@ -1,0 +1,38 @@
+.detalhe { padding: 1rem 0; }
+
+.btnVoltar {
+  display: inline-block;
+  color: var(--cor-dourada);
+  margin-bottom: 1.5rem;
+}
+
+.btnVoltar:hover { text-decoration: underline; }
+
+.card {
+  display: flex;
+  gap: 2rem;
+  background-color: var(--cor-card);
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  padding: 2rem;
+}
+
+@media (max-width: 640px) {
+  .card { flex-direction: column; }
+}
+
+.foto {
+  width: 260px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 0.4rem;
+  flex-shrink: 0; 
+}
+
+.info { display: flex; flex-direction: column; gap: 0.7rem; }
+
+.nome { color: var(--cor-dourada); font-size: 1.8rem; margin-bottom: 0.5rem; }
+
+.campo { font-size: 0.95rem; }
+
+.campo span { color: var(--cor-dourada); font-weight: 600; margin-right: 0.3rem; }
